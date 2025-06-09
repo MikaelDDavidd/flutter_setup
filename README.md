@@ -16,13 +16,13 @@ Este script automatiza completamente a configuração do ambiente de desenvolvim
 ### Instalação Completa (Recomendado)
 ```powershell
 # Execute como Administrador
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/[SEU_USUARIO]/flutter-setup/main/setup.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/MikaelDDavidd/flutter-setup/main/setup.ps1'))
 ```
 
 ### Download e Execução Local
 ```powershell
 # 1. Baixe o script
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/[SEU_USUARIO]/flutter-setup/main/setup.ps1" -OutFile "flutter-setup.ps1"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MikaelDDavidd/flutter-setup/main/setup.ps1" -OutFile "flutter-setup.ps1"
 
 # 2. Execute como Administrador
 .\flutter-setup.ps1
@@ -261,10 +261,9 @@ fvm config
 
 ### Contato
 
-- 📧 **Email**: [seu.email@domain.com]
-- 🐙 **GitHub**: [github.com/seu-usuario]
-- 💼 **LinkedIn**: [linkedin.com/in/seu-perfil]
-- 🐦 **Twitter**: [@seu_usuario]
+- 📧 **Email**: [mikaeldavidlopes@gmail.com]
+- 🐙 **GitHub**: [[github.com/seu-usuario](https://github.com/MikaelDDavidd)]
+- 💼 **LinkedIn**: [[linkedin.com/in/seu-perfil](https://www.linkedin.com/in/mikael-david-813975191/)]
 
 ### Contribuições
 
