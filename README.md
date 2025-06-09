@@ -261,10 +261,9 @@ fvm config
 
 ### Contato
 
-- 📧 **Email**: [seu.email@domain.com]
-- 🐙 **GitHub**: [github.com/seu-usuario]
-- 💼 **LinkedIn**: [linkedin.com/in/seu-perfil]
-- 🐦 **Twitter**: [@seu_usuario]
+- 📧 **Email**: [mikaeldavidlopes@gmail.com]
+- 🐙 **GitHub**: [[github.com/seu-usuario](https://github.com/MikaelDDavidd)]
+- 💼 **LinkedIn**: [[linkedin.com/in/seu-perfil](https://www.linkedin.com/in/mikael-david-813975191/)]
 
 ### Contribuições
 
