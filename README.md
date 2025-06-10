@@ -28,6 +28,67 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/MikaelDDavidd/flutter_
 .\flutter-setup.ps1
 ```
 
+## ⚠️ IMPORTANTE: Configuração do Android Studio
+
+**APÓS a instalação automática, você DEVE executar o Android Studio pela primeira vez!**
+
+### Por que isso é necessário?
+O Android Studio precisa ser configurado manualmente na primeira execução para:
+- Baixar o Android SDK (~3-4GB)
+- Configurar licenças
+- Definir o local de instalação do SDK
+
+## 📱 Passo a Passo Completo - Android Studio Setup
+
+### 1️⃣ **Abrir o Android Studio pela Primeira Vez**
+
+```powershell
+# Comando para abrir o Android Studio
+& "${env:ProgramFiles}\Android\Android Studio\bin\studio64.exe"
+```
+
+### 2️⃣ **Welcome Screen - Setup Wizard**
+
+Quando o Android Studio abrir pela primeira vez, você verá:
+
+1. **Welcome to Android Studio**
+   - ✅ Clique em **"Next"**
+
+2. **Install Type**
+   - ✅ Selecione **"Standard"** (recomendado)
+   - ✅ Clique em **"Next"**
+
+3. **Select UI Theme**
+   - ✅ Escolha **"Darcula"** ou **"Light"** (sua preferência)
+   - ✅ Clique em **"Next"**
+
+4. **Verify Settings**
+   - ✅ **IMPORTANTE**: Anote o **"Android SDK Location"**
+   - ✅ Exemplo: `C:\Users\[seu-usuario]\AppData\Local\Android\Sdk`
+   - ✅ Clique em **"Next"**
+
+5. **License Agreement**
+   - ✅ **Aceite TODAS as licenças** marcando os checkboxes
+   - ✅ Clique em **"Finish"**
+
+### 3️⃣ **Download dos Componentes (Aguarde!)**
+
+O Android Studio agora vai baixar:
+- 📦 **Android SDK Platform** (~1-2GB)
+- 🛠️ **Android SDK Build-Tools**
+- 📱 **Android Emulator**
+- 🔧 **HAXM** (para emulação)
+
+**⏱️ Tempo estimado: 10-15 minutos (dependendo da internet)**
+
+### Script de Correção Android SDK
+Se após a instalação você receber o erro `"Unable to locate Android SDK"`, execute:
+
+```powershell
+# Correção automática do Android SDK
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/MikaelDDavidd/flutter_setup/main/android-fix.ps1'))
+```
+
 ## ⚙️ Opções Avançadas
 
 ### Parâmetros Disponíveis
