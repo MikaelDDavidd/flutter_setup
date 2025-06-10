@@ -182,7 +182,7 @@ flutter doctor --android-licenses
 
 **❌ Erro: "Execution Policy"**
 ```powershell
-Set-ExecutionPolicy RemoteSigned -Scope Process
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
 **❌ Erro: "Chocolatey não encontrado"**
